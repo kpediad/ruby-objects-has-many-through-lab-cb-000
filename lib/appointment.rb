@@ -1,5 +1,6 @@
 class Appointment
   @@all = []
+  attr_reader :doctor
 
   def self.all
     @@all
