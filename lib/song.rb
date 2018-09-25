@@ -1,5 +1,6 @@
 class Song
   @@all = []
+  attr_reader :artist
 
   def self.all
     @@all
